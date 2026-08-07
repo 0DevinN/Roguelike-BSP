@@ -12,7 +12,7 @@ Detta är ett repository för ett [examensarbete](https://docs.google.com/docume
 Metoden som användes för att generera kartan var Binary Space Overlap (BSP) och valdes ut som ett effektivt sätt att generera en karta som är annorlunda varje gång man genererar den. 
 Detta uppnåddes genom att skapa "rum" som först delas upp i två delar som sen används för att delas ytterligare en gång. Processen fortsätter sedan tills området består av mindre sektioner som kan användas för rum.
 
-<img width="300" height="200" src="[https://github.com/Timearchitect/frontend-22-VC-/blob/main/docs/favicon-16x16.png](https://github.com/0DevinN/Roguelike-BSP/blob/main/Screenshot%202026-08-07%20234527.png)">
+![image1](https://github.com/0DevinN/Roguelike-BSP/blob/main/Screenshot%202026-08-07%20234527.png)
 
 ```c#
 public class BSPNode
