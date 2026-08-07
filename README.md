@@ -12,18 +12,40 @@ Detta är ett repository för ett [examensarbete](https://docs.google.com/docume
 Metoden som användes för att generera kartan var Binary Space Overlap (BSP) och valdes ut som ett effektivt sätt att generera en karta som är annorlunda varje gång man genererar den. 
 Detta uppnåddes genom att skapa "rum" som först delas upp i två delar som sen används för att delas ytterligare en gång. Processen fortsätter sedan tills området består av mindre sektioner som kan användas för rum.
 
-<img width="200" src="https://github.com/Timearchitect/frontend-22-VC-/blob/main/docs/favicon-16x16.png">
+<img width="300" height="200" src="[https://github.com/Timearchitect/frontend-22-VC-/blob/main/docs/favicon-16x16.png](https://github.com/0DevinN/Roguelike-BSP/blob/main/Screenshot%202026-08-07%20234527.png)">
 
 ```c#
-@media (prefers-color-scheme: dark) {
-  .day.dark-scheme {
-    background: #333;
-    color: white;
-  }
-  .night.dark-scheme {
-    background: black;
-    color: #ddd;
-  }
+public class BSPNode
+{
+    public RectInt rect;
+    public BSPNode left;
+    public BSPNode right;
+    public Room room;
+
+    public BSPNode(RectInt rect) { this.rect = rect; }
+
+    public bool IsLeaf => left == null && right == null;
+}
+
+```
+
+Klassen för rum som finns under BinarySpacePartitioning.cs: 
+
+```c#
+public class Room
+{
+    public int x, y, width, height;
+
+    public Room(int x, int y, int width, int height)
+    {
+        this.x = x; this.y = y; this.width = width; this.height = height;
+    }
+
+    public Vector2Int Center => new Vector2Int(
+        x + width / 2,
+        y + height / 2);
+
+    public Vector3 CenterWorld => new Vector3(Center.x, Center.y, 0);
 }
 
 ```
