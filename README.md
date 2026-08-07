@@ -10,7 +10,9 @@ Detta är ett repository för ett [examensarbete](https://docs.google.com/docume
 
 # Om metoden
 Metoden som användes för att generera kartan var Binary Space Overlap (BSP) och valdes ut som ett effektivt sätt att generera en karta som är annorlunda varje gång man genererar den. 
-Detta uppnåddes genom 
+Detta uppnåddes genom att skapa "rum" som först delas upp i två delar som sen används för att delas ytterligare en gång. Processen fortsätter sedan tills området består av mindre sektioner som kan användas för rum.
+
+<img width="200" src="https://github.com/Timearchitect/frontend-22-VC-/blob/main/docs/favicon-16x16.png">
 
 ```c#
 @media (prefers-color-scheme: dark) {
@@ -25,4 +27,4 @@ Detta uppnåddes genom
 }
 
 ```
-<img width="200" src="https://github.com/Timearchitect/frontend-22-VC-/blob/main/docs/favicon-16x16.png">
+
