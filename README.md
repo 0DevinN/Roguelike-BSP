@@ -2,7 +2,7 @@
 
 ## SP25
 
-Link till credits: [Credits på wikin](https://github.com/Timearchitect/frontend-22-VC-/wiki/Credits)
+[Länk till credits](https://github.com/Timearchitect/frontend-22-VC-/wiki/Credits)
 
 ## Om projektet
 
