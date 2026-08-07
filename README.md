@@ -3,40 +3,16 @@
 ## SP25
 
 Link till kredits: [Credits på wikin](https://github.com/Timearchitect/frontend-22-VC-/wiki/Credits)
-# rubrik h1
-## subrubrik h2
-### subsubrubrik h3
 
-vanlig text p tagg *italic* **bold** ***italic&bold*** ~~genom stryken~~
+## Om projektet
 
-> citat sadasdasd sdasdasda sdasd asdad asda a sdasdasdasd dsas 
-> hejsan från Alrik saadasdadad 
-> blabla
->> ni har presentation på eftermiddagen
-# YOYOYOYOY
-*-Alrik 2023*
+Detta är ett repository för ett [examensarbete](https://docs.google.com/document/d/1SZkBWDGFPLLa5hlYZZjIUfqgCwMHedp7lyt50gcwKqM/edit?tab=t.0) där fokus ligger på procedural generation. detta projekt använder Binary Space Partitioning för att generera en map. 
 
-| titel | datum | id |
-| --- | --- | --- |
-| inception | 2010 | 5 |
-| shrek | 2001 | 1 |
-| shrek | 2001 | 1 |
-| shrek | 2001 | 1 |
-| shrek | 2001 | 1 |
+# Om metoden
+Metoden som användes för att generera kartan var Binary Space Overlap (BSP) och valdes ut som ett effektivt sätt att generera en karta som är annorlunda varje gång man genererar den. 
+Detta uppnåddes genom 
 
-
-[link to repository](https://github.com/Timearchitect/frontend-22-VC-) 
-
-```html
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-```
-
-```css
+```c#
 @media (prefers-color-scheme: dark) {
   .day.dark-scheme {
     background: #333;
@@ -49,34 +25,4 @@ vanlig text p tagg *italic* **bold** ***italic&bold*** ~~genom stryken~~
 }
 
 ```
-
-```javascript
-let url= "https://api.openweathermap.org/data/2.5/weather?lat=11.265652&lon=15.321664&appid=w4ghg4fdfg3hgfdf4gsertyuik4v4"
-fetch(url)
-.then( (response) => {response.json()} )
-.then ( (data) => console.log(data) ) 
-.catch ( error => console.error(error))
-```
 <img width="200" src="https://github.com/Timearchitect/frontend-22-VC-/blob/main/docs/favicon-16x16.png">
-
-
-
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
-
-
-- unordered list
-- hej
-- tjenare
-- yo
-    - indenterad list
-    - indenterad list
-        - indenterad + list
-        - indenterad + list
-        
-1. ordered
-2. nästa 
-2. nästa 
-2. nästa 
-2. nästa 
-2. nästa 
-2. nästa 
